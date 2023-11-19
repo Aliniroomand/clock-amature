@@ -73,12 +73,14 @@ setInterval(setDate, 1000);
 
 const buttonHandler=document.querySelector(".watch-button");
 const analogClock=document.querySelector(".analog-clock");
+const digitalClock=document.querySelector(".digital-clock");
 
 
 buttonHandler.addEventListener("click",switching);
+// digitalClock.classList.add("fadeIn")
 
 function switching(){
-analogClock.classList.toggle("hidden")
+analogClock.classList.toggle("hidden");
 }
 
 
